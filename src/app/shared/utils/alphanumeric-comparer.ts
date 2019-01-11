@@ -47,7 +47,7 @@ export class AlphanumericComparer {
    * @param {string} text1 - text to sort alphanumerically
    * @param {string} text2 - text to sort alphanumerically
    */
-  public sort(text1: string, text2: string): number {
+  public static sort(text1: string, text2: string): number {
     const chunks1: Array<number|string> = AlphanumericComparer.splitInChunks(text1);
     const chunks2: Array<number|string> = AlphanumericComparer.splitInChunks(text2);
 

@@ -1,6 +1,6 @@
 import { AlphanumericComparer } from './alphanumeric-comparer';
 
-fdescribe(AlphanumericComparer.name, (): void => {
+describe(AlphanumericComparer.name, (): void => {
   describe('compareChunks', (): void => {
     let chunkA: number|string;
     let chunkB: number|string;
